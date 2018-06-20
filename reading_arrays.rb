@@ -8,25 +8,39 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
+  puts STUDENT_NAMES["Adele"]
   # Write a solution that returns the first student in the array student_names
 end
+first_student_by_index
 
 def fourth_student_by_index
+  puts STUDENT_NAMES["Lady Gaga"]
   # Write a solution that returns the first student in the array student_names
 end
+fourth_student_by_index
 
 def last_student_by_index
+  puts STUDENT_NAMES["Rihanna"]
   # Write a solution that returns the first student in the array student_names
 end
+last_student_by_index
 
 def first_student_by_method
+  puts STUDENT_NAMES.first
   # Write a solution that returns the first student using the built in .first method
 end
+first_student_by_method
 
 def last_student_by_method
+  puts STUDENT_NAMES.last
   # Write a solution that returns the first student using the built in .last method
 end
+last_student_by_method
 
 def first_second_and_third_students
+  puts STUDENT_NAMES[0]
+  puts STUDENT_NAMES[1]
+  puts STUDENT_NAMES[2]
   # Write a solution that returns the first, second and third students
 end
+first_second_and_third_students
